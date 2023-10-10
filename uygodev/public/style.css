@@ -1,0 +1,183 @@
+html{
+    scroll-behavior: smooth;
+    overflow:scroll;
+}
+
+body{
+    background-image: url(/public/araba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    text-indent: 5px;
+}
+#baslik{
+    letter-spacing: 5px;
+    opacity: 0.8;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    width: 900px;
+    text-shadow: 5px 5px 5px black;
+    margin-left: 275px;
+    margin-top: 100px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+    text-transform:uppercase;
+    filter: brightness(0.9);
+}
+nav{
+    word-spacing: 10px;
+    opacity: 0.8;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 275px;
+    margin-right: 650px;
+    text-align: center;
+    width: 900px;
+    position: sticky;
+    top: 0;
+    filter: brightness(0.9);
+    display: block;
+}
+nav a{
+    cursor:alias;
+    text-shadow: 2px 2px 3px black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    color: black;
+    text-decoration: none;
+    font-size: xx-large;
+    
+}
+
+#aciklama{
+    word-wrap: break-word;
+    filter: brightness(0.9);
+    opacity: 0.8;
+    scroll-margin-top: 50px;
+    text-shadow: 2px 2px 3px black;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    width: 1100px;
+    margin-top: 50px;
+    margin-left: 175px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+    height: 500px;
+    box-shadow: 5px 0 2px #000;
+    text-overflow: ellipsis;
+}
+
+ul{
+    list-style-type:decimal;
+}
+
+#giris{
+   
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    filter: brightness(0.9);
+    opacity: 0.8;
+    scroll-margin-top: 50px;
+    height: 600px;
+    text-shadow: 2px 2px 3px black;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    width: 1100px;
+    margin-top: 175px;
+    margin-left: 175px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+    box-shadow: 5px 0 2px #000;
+}
+
+
+#gelisme{
+    word-wrap: break-word;
+    text-overflow:clip;
+    box-shadow: 5px 0 2px #000;
+    filter: brightness(0.9);
+    opacity: 0.8;
+    scroll-margin-top: 50px;
+    height: 800px;
+    text-shadow: 2px 2px 3px black;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    width: 1100px;
+    margin-top: 175px;
+    margin-left: 175px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#ilerleme{
+    word-wrap: break-word;
+    text-overflow:ellipsis;
+    filter: brightness(0.9);
+    opacity: 0.8;
+    scroll-margin-top: 50px;
+    height: 600px;
+    text-shadow: 2px 2px 3px black;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    width: 1100px;
+    margin-top: 175x;
+    margin-left: 175px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+    box-shadow: 5px 0 2px #000;
+}
+
+#sonuc{
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    filter: brightness(0.9);
+    opacity: 0.8;
+    scroll-margin-top: 50px;
+    height: 500px;
+    text-shadow: 2px 2px 3px black;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    width: 1100px;
+    margin-top: 175px;
+    margin-left: 175px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+    margin-bottom: 250px;
+    box-shadow: 5px 0 2px #000;
+}
+
+#yukaributton{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    line-height: 50px;
+    padding: 0 20px;
+    background-color: #000;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+   
+}
